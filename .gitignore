@@ -1,0 +1,10 @@
+➜  analytics git:(main) ✗ git rm --cached analytics/__pycache__
+fatal: not removing 'analytics/__pycache__' recursively without -r
+➜  analytics git:(main) ✗ git rm --cached -r analytics/__pycache__
+rm 'analytics/__pycache__/__init__.cpython-312.pyc'
+rm 'analytics/__pycache__/main.cpython-312.pyc'
+➜  analytics git:(main) ✗ git rm --cached -r notebooks/.ipynb_checkpoints/
+rm 'notebooks/.ipynb_checkpoints/analytics-checkpoint.ipynb'
+
+analytics/__pycache__/
+notebooks/.ipynb_checkpoints/
